@@ -2,7 +2,7 @@ import React from 'react'
 
 const Home = () => {
 
-    const myPhoto = require('../assets/img/myPhoto.jpeg')
+    // const myPhoto = require('../assets/img/myPhoto.jpeg')
   return (
 
     <section className='homePage'> 
@@ -44,7 +44,7 @@ const Home = () => {
 
                         <div className="imgFrame">
 
-                            <img src={myPhoto} alt="" />
+                            <img src="https://github.com/Mahammad-Aslanzade/Portfolio/blob/mahammad/src/assets/img/myPhoto.jpeg?raw=true" alt="" />
 
                         </div>
 

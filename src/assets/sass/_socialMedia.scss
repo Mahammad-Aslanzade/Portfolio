@@ -8,8 +8,8 @@
     .mainBox {
         // Relative for Account Section
         position: relative;
-      .letter-box {
-        transition: 1s;
+        .letter-box {
+          transition: 1s;
         width: 20px;
         padding: 0 10px;
         display: flex;
@@ -17,6 +17,7 @@
         align-items: center;
         border-radius: 10px;
         border: 1px solid #008170;
+        background-color: #0F0F0F;
         cursor: pointer;
 
         span{
@@ -25,6 +26,9 @@
             padding: 2px 0 !important;
             font-weight: bolder;
         }
+        @media (max-width:450px) {
+          font-size: 10px;     
+        }
       }
 
       .accounts-main-box {
@@ -32,7 +36,8 @@
           position: absolute;
           left: 150%;        
             top: 0;
-
+            background-color: #0F0F0F;
+            z-index: 5;
           width: 50px;
           min-height: 100%;
           max-height: fit-content;

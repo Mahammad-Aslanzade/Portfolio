@@ -14,9 +14,9 @@ const App = () => {
 
     <BrowserRouter>
 
-      <SocialMedia />
 
       <div className="app">
+        <SocialMedia />
 
         <div className='container'>
 
